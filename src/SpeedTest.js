@@ -72,7 +72,7 @@ Server.get('/getIP', function (req, res) {
 });
 
 Server.use(express.static(path.join(__dirname, 'public')));
-
-Server.listen(8888, function () {
-    console.log('Speedtest Server is up and running!');
+const PORT = process.env.PORT || 3000;
+Server.listen(PORT, () => {
+    console.log('running on port 3000');
 });
