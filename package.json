@@ -30,7 +30,7 @@
   "homepage": "https://github.com/dunklesToast/NodeSpeedtest#readme",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo",
     "start":"node src/Speedtest.js"
   },
   "author": ""
